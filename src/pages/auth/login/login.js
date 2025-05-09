@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import '../../../assets/styles/register.css';
 import { useForm } from 'react-hook-form';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import AuthService from '../../../services/auth.service';
 import Logo from '../../../components/utils/Logo';
 
