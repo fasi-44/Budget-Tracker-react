@@ -1,6 +1,6 @@
 import axios from "axios";
 import AuthService from "./auth.service";
-import API_BASE_URL from "./auth.config";
+import API_BASE_URL from "../auth.config";
 
 
 const get_categories = () => {
