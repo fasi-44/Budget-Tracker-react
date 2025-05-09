@@ -1,5 +1,5 @@
 import axios from "axios";
-import API_BASE_URL from "../auth.config";
+import API_BASE_URL from "./auth.config";
 
 
 const login_req = async (email, password) => {
